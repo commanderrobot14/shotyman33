@@ -26551,7 +26551,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -26686,7 +26686,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -26821,7 +26821,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -63529,7 +63529,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -66031,7 +66031,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -69408,7 +69408,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -71910,7 +71910,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -75287,7 +75287,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -78609,7 +78609,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -81166,7 +81166,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -84488,7 +84488,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -151948,7 +151948,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -152083,7 +152083,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -152218,7 +152218,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -155633,7 +155633,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -155768,7 +155768,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -155903,7 +155903,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -162908,7 +162908,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -163043,7 +163043,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -163178,7 +163178,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -176738,7 +176738,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -176873,7 +176873,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -177008,7 +177008,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -180423,7 +180423,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -180558,7 +180558,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -180693,7 +180693,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
@@ -184108,7 +184108,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "assignees",
               "description": "",
               "childParamsGroups": [
@@ -184243,7 +184243,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_reviewers",
               "description": "",
               "childParamsGroups": [
@@ -184378,7 +184378,7 @@
               ]
             },
             {
-              "type": "array of objects or null",
+              "type": "array of objects",
               "name": "requested_teams",
               "description": "",
               "childParamsGroups": [
