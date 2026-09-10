@@ -4,10 +4,12 @@ intro: After making changes to a file in your codespace you can quickly commit t
 versions:
   fpt: '*'
   ghec: '*'
-type: how_to
 shortTitle: Source control
 redirect_from:
   - /codespaces/developing-in-codespaces/using-source-control-in-your-codespace
+contentType: how-tos
+category:
+  - Write code in a codespace
 ---
 
 ## About source control in {% data variables.product.prodname_github_codespaces %}
@@ -68,7 +70,7 @@ When you have made some changes, you can push them to a feature branch of your f
 git push origin my-feature-branch
 ```
 
-For more information, see [AUTOTITLE](/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks).
+For more information, see [AUTOTITLE](/pull-requests/reference/forks).
 
 {% webui %}
 

@@ -14,7 +14,6 @@ import { getMetadata } from './article-pageinfo'
 import {
   makeLanguageSurrogateKey,
   setFastlySurrogateKey,
-  SURROGATE_ENUMS,
 } from '@/frame/middleware/set-fastly-surrogate-key'
 import statsd from '@/observability/lib/statsd'
 
@@ -39,7 +38,8 @@ const router = express.Router()
  *   "meta": {
  *     "title": "About GitHub and Git",
  *     "intro": "You can use GitHub and Git to collaborate on work.",
- *     "product": "Get started"
+ *     "product": "Get started",
+ *     "documentType": "article"
  *   },
  *   "body": "## About GitHub\n\nGitHub is a cloud-based platform where you can store, share, and work together with others to write code.\n\nStoring your code in a \"repository\" on GitHub allows you to:\n\n* **Showcase or share** your work.\n [...]"
  * }
@@ -112,7 +112,7 @@ router.get(
  * Get metadata about an article.
  * @route GET /api/article/meta
  * @param {string} pathname - Article path (e.g. '/en/get-started/article-name')
- * @returns {object} JSON object containing article metadata with title, intro, and product information.
+ * @returns {object} JSON object containing article metadata with title, intro, product, and documentType information.
  * @throws {Error} 400 - If pathname parameter is invalid.
  * @throws {Error} 404 - If the path is valid, but the page couldn't be resolved.
  * @example
@@ -121,6 +121,7 @@ router.get(
  *   "title": "About GitHub and Git",
  *   "intro": "You can use GitHub and Git to collaborate on work.",
  *   "product": "Get started",
+ *   "documentType": "article",
  *   "breadcrumbs": [
  *     {
  *       "href": "/en/get-started",
@@ -156,7 +157,7 @@ router.get(
 
     setFastlySurrogateKey(
       res,
-      `${SURROGATE_ENUMS.DEFAULT} ${makeLanguageSurrogateKey(req.pageinfo?.page?.languageCode || 'en')}`,
+      makeLanguageSurrogateKey(req.pageinfo?.page?.languageCode || 'en'),
       true,
     )
     return res.json(meta)

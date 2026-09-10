@@ -7,6 +7,8 @@ versions:
   ghes: '*'
 permissions: Organization owners and repository administrators can require all commits to a repository to be signed off by the commit author.
 shortTitle: Manage the commit signoff policy
+category:
+  - Configure merges and pull requests
 ---
 
 ## About commit signoffs
@@ -21,4 +23,4 @@ Organization owners can also enable compulsory commit signoffs at the organizati
 
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.sidebar-settings %}
-1. Select **Require contributors to sign off on web-based commits**.
+1. Under "Commits", Select **Require contributors to sign off on web-based commits**.

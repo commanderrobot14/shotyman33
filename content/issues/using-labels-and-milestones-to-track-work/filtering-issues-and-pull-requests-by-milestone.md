@@ -10,6 +10,8 @@ versions:
   ghes: '*'
   ghec: '*'
 shortTitle: Filter by milestone
+category:
+  - Triage and organize issues
 ---
 
 > [!TIP]
@@ -26,5 +28,4 @@ shortTitle: Filter by milestone
 
 ## Further reading
 
-* [AUTOTITLE](/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests){% ifversion projects-v1 %}
-* [AUTOTITLE](/issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/filtering-cards-on-a-project-board){% endif %}
+* [AUTOTITLE](/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests)

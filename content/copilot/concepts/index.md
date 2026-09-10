@@ -8,17 +8,16 @@ children:
   - /completions
   - /chat
   - /agents
-  - /spark
+  - /about-cloud-and-local-sandboxes
   - /copilot-usage-metrics
   - /prompting
   - /context
   - /tools
-  - /auto-model-selection
-  - /rate-limits
+  - /models
+  - /usage-limits
   - /billing
-  - /about-enterprise-accounts-for-copilot-business
-  - /policies
-  - /mcp-management
   - /network-settings
+  - /enterprise
 contentType: concepts
 ---
+

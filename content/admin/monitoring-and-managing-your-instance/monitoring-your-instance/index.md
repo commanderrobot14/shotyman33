@@ -14,11 +14,13 @@ versions:
 children:
   - /about-monitoring-your-instance
   - /about-the-monitor-dashboards
+  - /analyze-git-traffic
   - /recommended-alert-thresholds
   - /opentelemetry-metrics
   - /collectd-metrics
   - /monitoring-using-snmp
   - /about-system-logs
+  - /about-support-bundles
   - /troubleshooting-resource-allocation-problems
   - /generating-a-health-check-for-your-enterprise
 

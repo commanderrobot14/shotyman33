@@ -10,6 +10,8 @@ versions:
   ghes: '*'
   ghec: '*'
 shortTitle: Deploy keys
+category:
+  - Connect with SSH
 ---
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.sidebar-settings %}
@@ -20,4 +22,4 @@ For more information, see [AUTOTITLE](/authentication/connecting-to-github-with-
 
 ## Further reading
 
-* [Configuring notifications](/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#organization-alerts-notification-options)
+* [AUTOTITLE](/subscriptions-and-notifications/get-started/configuring-notifications)

@@ -8,13 +8,15 @@ versions:
   ghec: '*'
 redirect_from:
   - /rest/overview/breaking-changes
+category:
+  - Learn about the REST API
 ---
 
 ## About breaking changes in the REST API
 
 {% data reusables.rest-api.about-api-versions %}
 
-For more information about API versions, see [AUTOTITLE](/rest/overview/api-versions).
+For more information about API versions, see [AUTOTITLE](/rest/about-the-rest-api/api-versions).
 
 ## Upgrading to a new API version
 

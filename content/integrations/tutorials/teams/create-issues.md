@@ -1,12 +1,14 @@
 ---
 title: Creating issues with the GitHub integration in Teams
 shortTitle: Create issues
-intro: 'Learn how to create issues with the {% data variables.product.github %} integration in Teams.'
+intro: Learn how to create issues with the {% data variables.product.github %} integration in Teams.
 versions:
   fpt: '*'
   ghes: '*'
   ghec: '*'
-contentType: reference
+contentType: tutorials
+category:
+  - Use integrations
 ---
 
 ## Creating issues with the {% data variables.product.github %} integration in Teams
@@ -23,4 +25,4 @@ With the {% data variables.product.github %} integration in Microsoft Teams, you
 
 1. Click **Create** to create the issue. You will receive a confirmation card in the channel from where you initiated the issue creation.
 
-Alternatively, you can create an issue by invoking `@GitHub Notifications` from the chat in your channel or personal app.
+Alternatively, you can create an issue by invoking `@{% data variables.product.github %}{% ifversion ghes %} Notifications{% endif %}` from the chat in your channel or personal app.

@@ -326,13 +326,13 @@ function validateReusables(
 
 interface Frontmatter {
   contentType?: string
-  type?: string
   [key: string]: unknown
 }
 
 function isFileRaiCard(params: RuleParams): boolean {
   const fm: Frontmatter = (getFrontmatter(params.frontMatterLines) as Frontmatter) || {}
-  return fm.contentType === 'rai' || fm.type === 'rai'
+  // Files with children: are landing pages that aggregate cards, not cards themselves.
+  return fm.contentType === 'rai' && !('children' in fm)
 }
 
 export const raiAppCardStructure: Rule = {

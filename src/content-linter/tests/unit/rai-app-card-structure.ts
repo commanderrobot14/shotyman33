@@ -83,21 +83,13 @@ function validCard(): string {
     '',
     '## 10. Best practices for deploying and adopting Copilot Chat',
     '',
-    '### Deployers and end-users should',
-    '',
     '{% data reusables.rai.copilot.application-card-consequential-decisions %}',
     '',
     '{% data reusables.rai.copilot.application-card-evaluate-legal-regulatory %}',
     '',
-    '### End-users should',
-    '',
     '{% data reusables.rai.copilot.application-card-overreliance %}',
     '',
     '{% data reusables.rai.copilot.application-card-agentic-ai-caution %}',
-    '',
-    '### Deployers should',
-    '',
-    'Deployer practices.',
     '',
     '## 11. Learn more about Copilot Chat',
     '',
@@ -116,13 +108,6 @@ describe(raiAppCardStructure.names.join(' - '), () => {
 
   test('valid RAI card produces zero errors', async () => {
     const markdown = validCard()
-    const result = await runRule(raiAppCardStructure, { strings: { markdown } })
-    const errors = result.markdown
-    expect(errors.length).toBe(0)
-  })
-
-  test('valid RAI card using legacy type: rai frontmatter produces zero errors', async () => {
-    const markdown = validCard().replace('contentType: rai', 'type: rai')
     const result = await runRule(raiAppCardStructure, { strings: { markdown } })
     const errors = result.markdown
     expect(errors.length).toBe(0)

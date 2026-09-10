@@ -4017,7 +4017,7 @@
         "subcategory": "rule-suites",
         "verb": "get",
         "requestPath": "/repos/{owner}/{repo}/rulesets/rule-suites",
-        "access": "write",
+        "access": "read",
         "user-to-server": true,
         "server-to-server": true,
         "additional-permissions": false
@@ -4028,7 +4028,7 @@
         "subcategory": "rule-suites",
         "verb": "get",
         "requestPath": "/repos/{owner}/{repo}/rulesets/rule-suites/{rule_suite_id}",
-        "access": "write",
+        "access": "read",
         "user-to-server": true,
         "server-to-server": true,
         "additional-permissions": false
@@ -5144,7 +5144,18 @@
         "access": "write",
         "user-to-server": true,
         "server-to-server": true,
-        "additional-permissions": false
+        "additional-permissions": true
+      },
+      {
+        "category": "releases",
+        "slug": "update-a-release",
+        "subcategory": "releases",
+        "verb": "patch",
+        "requestPath": "/repos/{owner}/{repo}/releases/{release_id}",
+        "access": "write",
+        "user-to-server": true,
+        "server-to-server": true,
+        "additional-permissions": true
       },
       {
         "category": "releases",
@@ -5178,6 +5189,28 @@
         "user-to-server": true,
         "server-to-server": false,
         "additional-permissions": false
+      },
+      {
+        "category": "activity",
+        "slug": "list-stargazers",
+        "subcategory": "starring",
+        "verb": "get",
+        "requestPath": "/repos/{owner}/{repo}/stargazers",
+        "access": "write",
+        "user-to-server": true,
+        "server-to-server": true,
+        "additional-permissions": true
+      },
+      {
+        "category": "activity",
+        "slug": "list-watchers",
+        "subcategory": "watching",
+        "verb": "get",
+        "requestPath": "/repos/{owner}/{repo}/subscribers",
+        "access": "write",
+        "user-to-server": true,
+        "server-to-server": true,
+        "additional-permissions": true
       },
       {
         "category": "repos",
@@ -5800,6 +5833,17 @@
       },
       {
         "category": "issues",
+        "slug": "list-issue-field-values-for-an-issue",
+        "subcategory": "issue-field-values",
+        "verb": "get",
+        "requestPath": "/repos/{owner}/{repo}/issues/{issue_number}/issue-field-values",
+        "access": "read",
+        "user-to-server": true,
+        "server-to-server": true,
+        "additional-permissions": false
+      },
+      {
+        "category": "issues",
         "slug": "list-labels-for-an-issue",
         "subcategory": "labels",
         "verb": "get",
@@ -6245,17 +6289,6 @@
         "additional-permissions": false
       },
       {
-        "category": "activity",
-        "slug": "list-stargazers",
-        "subcategory": "starring",
-        "verb": "get",
-        "requestPath": "/repos/{owner}/{repo}/stargazers",
-        "access": "read",
-        "user-to-server": true,
-        "server-to-server": true,
-        "additional-permissions": false
-      },
-      {
         "category": "metrics",
         "slug": "get-the-weekly-commit-activity",
         "subcategory": "statistics",
@@ -6305,17 +6338,6 @@
         "subcategory": "statistics",
         "verb": "get",
         "requestPath": "/repos/{owner}/{repo}/stats/punch_card",
-        "access": "read",
-        "user-to-server": true,
-        "server-to-server": true,
-        "additional-permissions": false
-      },
-      {
-        "category": "activity",
-        "slug": "list-watchers",
-        "subcategory": "watching",
-        "verb": "get",
-        "requestPath": "/repos/{owner}/{repo}/subscribers",
         "access": "read",
         "user-to-server": true,
         "server-to-server": true,
@@ -7789,6 +7811,17 @@
         "subcategory": "releases",
         "verb": "post",
         "requestPath": "/repos/{owner}/{repo}/releases",
+        "access": "write",
+        "user-to-server": true,
+        "server-to-server": true,
+        "additional-permissions": true
+      },
+      {
+        "category": "releases",
+        "slug": "update-a-release",
+        "subcategory": "releases",
+        "verb": "patch",
+        "requestPath": "/repos/{owner}/{repo}/releases/{release_id}",
         "access": "write",
         "user-to-server": true,
         "server-to-server": true,
